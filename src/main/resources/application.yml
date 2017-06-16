@@ -2,6 +2,9 @@ spring:
   application:
     name: auth-service
 
+server:
+  port: 8081
+
 
 security:
   user:
@@ -9,8 +12,8 @@ security:
     password: password
   oauth2:
     client:
-      client-id: acme
-      client-secret: secret
+      client-id: test-purpose-client-id #todo change later
+      client-secret: secret #todo change later
 
 
 eureka:
